@@ -275,8 +275,34 @@ html {
     border-radius: 10px;
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 350px;
     cursor: pointer;
+}
+
+.project_img_blurred {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    cursor: pointer;
+    filter: blur(3px);
+    display: block;
+}
+
+.img_border {
+    position: relative;
+    display: inline-block;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 175px;
+    right: 25%;
+    rotate: 45deg;
+    color: #696868; 
+    font-size: 16px;
+    font-weight: bold;
+    pointer-events: none;
 }
 
 .github {
