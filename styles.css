@@ -249,7 +249,6 @@ html {
     margin: 20px;
     min-width: 320px;
     flex: 0 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     list-style: none;
 }
@@ -259,8 +258,12 @@ html {
         font-size: 24px;
     }
 
-    .Open_container h1, .Open_container h5 {
+    .Open_container h1 {
         font-size: 24px;
+    }
+
+    .Open_container h5 {
+        font-size: 16px;
     }
 
     .project_list p {
