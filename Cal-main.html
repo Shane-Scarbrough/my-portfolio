@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link href="Cal-style.css" rel="styleSheet">
+</head>
+<body>
+    <nav class="return_home">
+        <a href="index.html">Return</a>
+    </nav>
+    <main>
+        <h1>Calculator App</h1>
+        <div>
+            <h2 id="total">0</h2>
+        </div>
+        <div id="topRow">
+            <button id="clear" class="lightGreyButton" onclick="allClear()">AC</button>
+            <button id="positiveOrNegative" class="lightGreyButton" onclick="getInteger()">+/-</button>
+            <button id="percent" class="lightGreyButton" onclick="getPercent()">%</button>
+            <button id="divide" class="orangeButton" onclick="getOperator('/')">/</button>
+        </div>
+        <div id="secondRow">
+            <button id="7" class="greyButton" onclick="getNum('7')">7</button>
+            <button id="8" class="greyButton" onclick="getNum('8')">8</button>
+            <button id="9" class="greyButton" onclick="getNum('9')">9</button>
+            <button id="multiply" class="orangeButton" onclick="getOperator('*')">*</button>
+        </div>
+        <div id="thirdRow">
+            <button id="4" class="greyButton" onclick="getNum('4')">4</button>
+            <button id="5" class="greyButton" onclick="getNum('5')">5</button>
+            <button id="6" class="greyButton" onclick="getNum('6')">6</button>
+            <button id="subtract" class="orangeButton" onclick="getOperator('-')">-</button>
+        </div>
+        <div id="forthRow">
+            <button id="1" class="greyButton" onclick="getNum('1')">1</button>
+            <button id="2" class="greyButton" onclick="getNum('2')">2</button>
+            <button id="3" class="greyButton" onclick="getNum('3')">3</button>
+            <button id="add" class="orangeButton" onclick="getOperator('+')">+</button>
+        </div>
+        <div id="bottomRow">
+            <button id="0" class="greyButton" onclick="getNum('0')">0</button>
+            <button id="decimal" class="greyButton" onclick="getNum('.')">.</button>
+            <button id="equals" class="orangeButton" onclick="equalAll()">=</button>
+        </div>
+    </main>
+    <script src="Cal-index.js"></script>
+</body>
+</html>

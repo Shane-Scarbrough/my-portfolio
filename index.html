@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home| Shane Scarbrough</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">Shane Scarbrough</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="Full-Bio.html" class="navbar__links">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>   
+  <div class="curve">
+    <br>
+    <svg class="curve_coords" viewBox="0 0 100 300" preserveAspectRatio="none">
+        <defs>
+            <linearGradient id="curveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#001a51" />
+              <stop offset="100%" stop-color="#4b6382" />
+            </linearGradient>
+          </defs>
+        <path d="M0,300 Q50,-300 100,300 L100,300 L0,300 Z" fill="url(#curveGradient)" />
+      </svg>  
+  </div>
+  <div class="Main_backdrop">
+    <header class="Open_container">
+      <h1 class="greeting">Hello. <br> I am Shane</h1>
+      <h5 class="greeting">I construct code for websites</h5>
+    </header>
+    <div class="img_position">
+      <img src="Man-Waving.png" alt="Photo Unavailable" class="img_shrink">
+    </div>
+    <section class="projects">
+      <h3 class="description">Projects</h3>
+      <div class="link_scroll">
+        <ul>
+          <li class="project_list">
+            <a href="Cal-main.html">
+              <img src="Calculator App.png" alt="Calculator Project" class="project_img"> 
+            </a>
+            <p>
+              An early version clone <br>
+              of the IPhone Calculator.
+            </p>
+            <br>
+            <a href="https://github.com/Shane-Scarbrough" target="_blank">
+              <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="40" height="40" class="github">
+            </a> <br>
+            <a href="Cal-main.html" class="link_des">Explore Project</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <section class="AboutMe">
+    <div class="curveTwo">
+      <svg class="curveTwo_coords" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0,0 Q50,200 100,0 L100,0 L0,0 Z" fill="url(#curveGradient)" />
+      </svg> 
+    </div> 
+  <br>
+  <h2>About Me</h2>
+  <div class="AboutMe_content">
+    <p>
+      I love to problem solve. <br> 
+      At an early age I noticed how much I enjoyed math and the complexity of advanced math. 
+      As I began to learn new methods of math, such as multiplication and division, 
+      math became my favorite subject and I wanted to learn efficiant ways to handle math problems. During high school
+      I became interested in learning more about computers and how they worked. I tried a maintenance class that taught
+      me how to build my first computer and then quickly found out I cared more about what the computer could do once it was on
+      and less about how to build it.
+      <a href="Full-Bio.html" class="Bio_link">Full Bio</a>
+    </p>
+    <div class="image_wrapper">
+      <img src="Math-photo.jpg" alt="Math Rocks" class="math_shrink">
+    </div>
+  </div>
+  </section>
+  <footer class="contact" id="contact">
+  <ul class="contact_list">
+    <li>Phone: <br> 832-580-1258</li>
+    <li>Email: <br> ShaneScarbrough@yahoo.com</li>
+    <li>
+      <a href="https://www.linkedin.com/in/shane-scarborough-aa1b7734b/" id="linkedin">
+        linkedin: www.linkedin.com/in/shane-scarborough-aa1b7734b
+      </a>
+    </li>
+  </ul>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
